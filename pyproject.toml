@@ -16,10 +16,10 @@ authors = [
 keywords = ["video", "player", "wayland", "transparent", "overlay", "vp9", "webm", "gtk4"]
 classifiers = [
     "Development Status :: 4 - Beta",
-    "Environment :: Wayland",
+    "Environment :: Other Environment",
     "Environment :: X11 Applications :: GTK",
     "Intended Audience :: End Users/Desktop",
-    "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
+
     "Operating System :: POSIX :: Linux",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.10",
