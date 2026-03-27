@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "alphaplayer"
+version = "1.2"
+description = "Transparent VP9/WebM video overlay player for Wayland and X11"
+readme = "README.md"
+license = "LGPL-3.0-or-later"
+requires-python = ">=3.10"
+authors = [
+    { name = "John Boero" },
+    { name = "Claude (Anthropic)" },
+]
+keywords = ["video", "player", "wayland", "transparent", "overlay", "vp9", "webm", "gtk4"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Wayland",
+    "Environment :: X11 Applications :: GTK",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Multimedia :: Video :: Display",
+]
+
+[project.urls]
+Homepage = "https://github.com/jboero/alphaplayer"
+Issues = "https://github.com/jboero/alphaplayer/issues"
+
+[project.scripts]
+alphaplayer = "alphaplayer.app:main"
+
+[project.gui-scripts]
+alphaplayer-gui = "alphaplayer.app:main"
+
+[tool.setuptools.packages.find]
+include = ["alphaplayer*"]
+
+[tool.setuptools.package-data]
+alphaplayer = ["alphaplayer_icon.webp"]

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=AlphaPlayer
+GenericName=Video Player
+Comment=Transparent VP9/WebM video overlay player for Wayland and X11
+Exec=alphaplayer %F
+Icon=alphaplayer
+Terminal=false
+Categories=AudioVideo;Video;Player;GTK;
+MimeType=video/webm;
+Keywords=video;player;transparent;overlay;wayland;
+StartupNotify=true
