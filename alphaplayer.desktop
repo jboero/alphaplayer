@@ -7,6 +7,6 @@ Exec=alphaplayer %F
 Icon=alphaplayer
 Terminal=false
 Categories=AudioVideo;Video;Player;GTK;
-MimeType=video/webm;
+MimeType=video/webm;video/x-matroska;
 Keywords=video;player;transparent;overlay;wayland;
 StartupNotify=true
