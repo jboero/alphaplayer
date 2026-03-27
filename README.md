@@ -13,6 +13,9 @@ over your desktop. Use it for animated mascots, streaming overlays, HUDs,
 transparent tutorials, or anything else that benefits from video composited
 on top of your workspace.
 
+[demo.webm](https://github.com/user-attachments/assets/0c11a6d7-6598-4d95-a410-557efe92ec46)
+
+
 **Key features:**
 - True alpha transparency via VP9 alpha channel in WebM containers
 - Wayland-native positioning and stacking via `gtk4-layer-shell`
